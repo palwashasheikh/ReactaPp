@@ -8,8 +8,8 @@ const BannerSecond = () => {
         <div className="flex flex-col md:flex-row items-center">
           {/* Left Images */}
           <div className="flex space-x-4 mb-6 md:mb-0">
-            <img src="/Rectangle 15.png"  className="w-32 h-auto rounded-lg"/>
-            <img src="/Rectangle 16.png" className="w-32 h-auto rounded-lg"/>
+            <img src="/Rectangle 15.png" alt=""  className="w-32 h-auto rounded-lg"/>
+            <img src="/Rectangle 16.png" alt="" className="w-32 h-auto rounded-lg"/>
           </div>
           
           {/* Right Text */}

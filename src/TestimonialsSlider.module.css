@@ -1,0 +1,23 @@
+.slick-track {
+    display: flex !important; /* Ensure that the slides are displayed in a row */
+    flex-direction: row; /* Set the direction of the slides to horizontal */
+  }
+  
+  .slick-slide {
+    display: inline-block !important; /* Each slide should be inline to ensure they are displayed horizontally */
+    width: auto !important; /* Ensure the width is auto or as required */
+    
+  }
+  
+  .slick-list {
+    overflow: hidden !important; /* Hide the slides that overflow */
+    display: block;
+  }
+  
+  .slick-arrow {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  

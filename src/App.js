@@ -1,21 +1,25 @@
 import React from 'react';
-import NavBar from './Components/NavBar';
-import Banner from './Components/Banner';
-import TransitionSection from './Components/TransitionSection';
-import BannerSecond from './Components/BannerSecond';
-import TransitionSectionSecond from './Components/TransitionSectionSecond';
-import KrachtdakSection from './Components/KrachtdakSection';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './HomePage';
+import ZonnepanelenPage from './ZonnepanelenPage'
+
+
+
+
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Banner />
-      <TransitionSection/>
-      <BannerSecond/>
-      <TransitionSectionSecond/>
-      <KrachtdakSection/>
-    </div>
+    <Router>
+      <div>    
+        {/* NavBar should be present on all pages */}
+
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/zonnepanelen" element={<ZonnepanelenPage />} />
+        </Routes>
+        
+      </div>
+    </Router>
   );
 }
 

@@ -2,8 +2,10 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <div className="bg-teal-900 text-white py-20">
-      <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+    <div className=" text-white py-20 "                style={{ backgroundImage: 'url("/sungrow-emea-ceTSHQ0qars-unsplash 2.png")' }}
+>
+      <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between"
+>
         {/* Text Section */}
         <div className="md:w-1/2 mb-10 md:mb-0">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
