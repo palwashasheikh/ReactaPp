@@ -36,7 +36,7 @@ const NavBar = () => {
         {/* Links Section (hidden on small screens and visible on large screens) */}
         <ul className={`lg:flex lg:space-x-6 ${isOpen ? 'block' : 'hidden'} lg:block mt-4 lg:mt-0`}>
           <li><a href="/zonnepanelen" className="hover:text-yellow-400 block lg:inline-block">Zonnepanelen</a></li>
-          <li><a href="/" className="hover:text-yellow-400 block lg:inline-block">Autoladers</a></li>
+          <li><a href="/Autoladers" className="hover:text-yellow-400 block lg:inline-block">Autoladers</a></li>
           <li><a href="/" className="hover:text-yellow-400 block lg:inline-block">Thuisbatterij</a></li>
           <li><a href="/" className="hover:text-yellow-400 block lg:inline-block">Groepsaankoop</a></li>
           <li><a href="/" className="hover:text-yellow-400 block lg:inline-block">Zakelijk</a></li>

@@ -11,14 +11,17 @@ import EnergyManagementSystem from './Components/EnergyManagementSystem';
 import QuestionsGrid from './Components/QuestionsGrid';
 import TestimonialsSlider from './Components/TestimonialsSlider';
 import ContactForm from './Components/ContactForm';
+import AutoladersBanner from './Components/AutoladersBanner';
+import ChargerInfo from './Components/ChargerInfo';
+import ControlWithApp from './Components/ControlWithApp';
 
-const ZonnepanelenPage = () => {
+const Autoladers = () => {
   return (
     <div>
       <NavBar />
-      <ZonnepanelenBanner />
-      <CustomSystemSection />
-      <SlimPlanSection/>
+      <AutoladersBanner />
+      <ChargerInfo />
+      <ControlWithApp/>
       <ExperienceSection/>
       <SolarPanelSection/>
       <SolarPanelOptions/>
@@ -34,4 +37,4 @@ const ZonnepanelenPage = () => {
   );
 };
 
-export default ZonnepanelenPage;
+export default Autoladers;
