@@ -12,7 +12,7 @@ import Footer from './Components/Footer';
 
 const HomePage = () => (
     <>
-    <NavBar/>
+      <NavBar/>
       <Banner />
       <TransitionSection />
       <BannerSecond />
