@@ -5,6 +5,10 @@ import BannerSecond from './Components/BannerSecond';
 import KrachtdakSection from './Components/KrachtdakSection';
 import ReadMoreSection from './Components/ReadMore';
 import TestimonialsSlider from './Components/TestimonialsSlider';
+
+import TransitionSectionSecond from './Components/TransitionSectionSecond';
+
+
 import ContactForm from './Components/ContactForm';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
@@ -14,8 +18,9 @@ const HomePage = () => (
     <>
       <NavBar/>
       <Banner />
-      <TransitionSection />
+      <TransitionSection />    
       <BannerSecond />
+      <TransitionSectionSecond />
       <KrachtdakSection />
       <ReadMoreSection />
       <TestimonialsSlider />
