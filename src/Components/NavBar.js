@@ -1,14 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 5) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup function to remove the event listener
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="text-white fixed top-0 left-0 right-0 flex justify-between items-center h-16 px-6 lg:px-24 bg-blueish-80 z-50">
+    <nav className={`text-white fixed top-0 left-0 right-0 flex justify-between items-center h-16 px-6 lg:px-24 z-50 transition-colors duration-300 ${
+      scrolled ? 'bg-blueish-80' : 'bg-transparent'
+    }`}>
       <div className="flex items-center w-full justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
