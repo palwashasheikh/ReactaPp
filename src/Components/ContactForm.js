@@ -19,31 +19,31 @@ const ContactForm = () => {
 
         {/* Right side form */}
         <div>
-          <form className="bg-[#FFFFFF33] p-8 rounded-lg shadow-lg grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <form className="bg-[#FFFFFF33] p-8 rounded-lg shadow-lg grid grid-cols-1 sm:grid-cols-2 gap-6 border border-[rgba(255,255,255,0.2)]">
             <input
               type="text"
               placeholder="Voornaam"
-              className="p-4 bg-[#FFFFFF33] text-[#FFFFFF] rounded-lg w-full focus:outline-none"
+              className="p-4 bg-[#FFFFFF33] text-[#FFFFFF] placeholder-white/50 rounded-lg w-full focus:outline-none border border-white"
             />
             <input
               type="text"
               placeholder="Achternaam"
-              className="p-4 bg-[#FFFFFF33] text-[#FFFFFF] rounded-lg w-full focus:outline-none"
+              className="p-4 bg-[#FFFFFF33] text-[#FFFFFF] placeholder-white/50 rounded-lg w-full focus:outline-none border border-white"
             />
             <input
               type="email"
               placeholder="Email"
-              className="p-4 bg-[#FFFFFF33] text-[#FFFFFF] rounded-lg w-full focus:outline-none"
+              className="p-4 bg-[#FFFFFF33] text-[#FFFFFF] placeholder-white/50 rounded-lg w-full focus:outline-none border border-white"
             />
             <input
               type="text"
               placeholder="Telefoonnummer"
-              className="p-4 bg-[#FFFFFF33] text-[#FFFFFF] rounded-lg w-full focus:outline-none"
+              className="p-4 bg-[#FFFFFF33] text-[#FFFFFF] placeholder-white/50 rounded-lg w-full focus:outline-none border border-white"
             />
             <input
               type="text"
               placeholder="Postcode"
-              className="p-4 bg-[#FFFFFF33] text-[#FFFFFF] rounded-lg w-full focus:outline-none sm:col-span-2"
+              className="p-4 bg-[#FFFFFF33] text-[#FFFFFF] placeholder-white/50 rounded-lg w-full focus:outline-none sm:col-span-2 border border-white"
             />
             <p className="text-white sm:col-span-2">
               Waarvoor wilt u advies ontvangen?
@@ -64,7 +64,7 @@ const ContactForm = () => {
             </div>
             <textarea
               placeholder="Opmerkingen"
-              className="p-4 bg-[#FFFFFF33] text-black rounded-lg w-full focus:outline-none sm:col-span-2"
+              className="p-4 bg-[#FFFFFF33] text-white placeholder-white/50 rounded-lg w-full focus:outline-none sm:col-span-2 border border-white"
             />
             <button
               type="submit"
