@@ -3,17 +3,17 @@ import React from "react";
 const ContactForm = () => {
   return (
     <div
-      className="bg-cover bg-center py-12"
+      className="bg-cover bg-center py-20"
       style={{ backgroundImage: 'url("/longimage.png")' }}
     >
-      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="md:px-24 px-4 grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Left side text */}
-        <div className="flex flex-col justify-center">
-          <h2 className="text-white text-3xl font-bold mb-6">
-            Wilt u advies of een offerte? Neem dan contact met ons op!
+        <div className="flex flex-col justify-start">
+          <h2 className="text-white text-3xl md:text-6xl font-medium mb-7 !leading-[68px]">
+            Wilt u advies<br/> of een offerte? <br/> Neem dan <br/> contact met <br /> ons op!
           </h2>
-          <p className="text-white mb-8">
-            Kies voor een kwaliteit installatie van Krachtdak
+          <p className="text-white mb-8 text-lg">
+            Kies voor een kwaliteit installatie van <br/> Krachtdak
           </p>
         </div>
 

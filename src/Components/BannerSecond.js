@@ -2,13 +2,13 @@ import React from 'react';
 
 const BannerSecond = () => {
   return (
-    <section className="flex flex-col md:flex-row bg-white justify-between items-start py-6 md:py-20 px-4 md:pr-24">
-      <div className="container mx-auto">
+    <section className="flex flex-col md:flex-row bg-white justify-between items-start py-6 md:py-20 px-0 md:pr-24">
+      <div className="w-full">
         <div className="flex flex-col md:flex-row items-start">
           {/* Left Images */}
-          <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 mb-6 md:mb-0 w-full md:w-[730px]">
-            <img src="/Rectangle 15.png" alt="" className="w-full md:w-auto" />
-            <img src="/Rectangle 16.png" alt="" className="w-full md:w-auto" />
+          <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 mb-6 md:mb-0 w-full">
+            <img src="/Rectangle 15.png" alt="" className="w-full md:w-full" />
+            <img src="/Rectangle 16.png" alt="" className="w-full md:w-full" />
           </div>
           
           {/* Right Text */}
