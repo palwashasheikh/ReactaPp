@@ -6,18 +6,14 @@ export const PrevButton = ({ enabled, onClick }) => (
     onClick={onClick}
     disabled={!enabled}
     aria-label="Previous slide"
-    style={{
-      backgroundColor: "#06627C",
-      color: "white",
+    style={{      
       border: "none",
-      width:"40px",
-      height:"40px",
-      fontSize: "18px",
-      borderRadius: "50%",
+      width:"70px",
+      height:"70px",            
       cursor: enabled ? "pointer" : "default",
     }}
   >
-    &#60; {/* Less than symbol < */}
+    <img src="/arrow-circle-left.png" alt="Arrow" className="" />
   </button>
 );
 
@@ -27,17 +23,13 @@ export const NextButton = ({ enabled, onClick }) => (
     onClick={onClick}
     disabled={!enabled}
     aria-label="Next slide"
-    style={{
-      background: "#FFAB10",
-      color: "white",
+    style={{          
       border: "none",
-      width:"40px",
-      height:"40px",
-      fontSize: "18px",
-      borderRadius: "50%",
+      width:"70px",
+      height:"70px",
       cursor: enabled ? "pointer" : "default",
     }}
   >
-    &#62; {/* Greater than symbol > */}
+    <img src="/arrow-circle-right.png" alt="Arrow" className="" />
   </button>
 );

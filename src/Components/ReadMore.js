@@ -25,27 +25,27 @@ const ReadMoreSection = () => {
   ];
 
   return (
-    <div className="py-12">
-      <div className="max-w-3xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8">Lees Meer Over</h2>
+    <div className="pt-8 md:pt-36">
+      <div className="px-4 md:px-24 mx-auto">
+        <h2 className="text-2xl md:text-5xl font-bold md:mb-12 mb-4">Lees Meer Over</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {cards.map((card, index) => (
             <div key={index} className="bg-slate-200 rounded-lg shadow-lg overflow-hidden">
               <img
                 src={card.image}
                 alt={card.title}
-                className="w-full h-48 object-cover"
+                className="w-full object-cover rounded-lg p-2"
               />
-              <div className="p-6">
-                <h3 className="text-sm font-semibold mb-2">{card.title}</h3>
+              <div className="px-6 py-4">
+                <h3 className="text-xl font-bold mb-2">{card.title}</h3>
                 <p className="text-gray-600 mb-4">{card.description}</p>
                 <a
                   href="#"
-                  className="text-yellow-500 font-bold flex items-center"
+                  className="text-orangeish-500 font-medium flex items-center justify-start text-lg"
                 >
                   Lees verder{' '}
-                  <span className="ml-2 text-yellow-500">&rarr;</span>
+                  <img src="/arrow.svg" alt="Arrow" className="ml-5" />
                 </a>
               </div>
             </div>

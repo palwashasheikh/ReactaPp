@@ -3,9 +3,9 @@ import { FaCheck } from 'react-icons/fa'; // Importing FontAwesome check icon
 
 const KrachtdakSection = () => {
   return (
-    <div className="bg-blueish-50 text-white py-10 md:py-20 relative">
+    <div className="bg-blueish-50 text-white py-10 md:py-20 relative pl-4 md:pl-24">
       {/* Main container */}
-      <div className="max-w-5xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between relative">
+      <div className="mx-auto flex flex-col md:flex-row items-center justify-between relative">
         {/* Left Side: Text Content */}
         <div className="w-full md:w-1/2 mb-10 md:mb-0">
           <h2 className="text-2xl md:text-5xl font-bold mb-10 md:mb-28">Dit Is Krachtdak</h2>
@@ -40,7 +40,7 @@ const KrachtdakSection = () => {
         </div>
 
         {/* Right Side: Image */}
-        <div className="w-full md:w-1/2 relative md:absolute md:right-0 md:top-2">
+        <div className="w-full md:w-1/2 relative md:absolute md:right-0 md:top-2 pr-4 md:pl-0">
           <img
             src="/Rectangleimage.png"
             alt="Worker with Solar Panel"
