@@ -49,7 +49,7 @@ const ContactForm = () => {
               Waarvoor wilt u advies ontvangen?
             </p>
             <div className="sm:col-span-2 flex items-center space-x-4">
-              <label className="text-white">
+              <label className="text-white text-lg">
                 <input type="checkbox" className="mr-2" />
                 Zonnepanelen
               </label>
