@@ -3,7 +3,7 @@ import React from 'react';
 const ControlWithApp = () => {
   return (
     <div className="bg-white py-20">
-      <div className="min-w-7xl mx-auto px-7 flex flex-col items-center">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col items-center">
         {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-10">
           In Controle Met <span className="text-yellow-500">De App</span>
@@ -17,8 +17,8 @@ const ControlWithApp = () => {
             <p className="text-sm">
               Plan je laadsessie in en heb volledige controle over wanneer - en hoelang - je wilt opladen. Pas de instellingen voor het laden van je elektrische auto aan met onze handige planningsfunctie. Stel verschillende laadtijden in voor doordeweekse dagen en het weekend zodat dit past bij jouw routine, optimaliseer vervolgens voor minder kosten en meer gemak.
             </p>
-            {/* Left Arrow Line Image */}
-            <img src="left.png" alt="Arrow Line" className="absolute top-1/2 left-full transform -translate-y-1/2 w-[100px]" />
+            {/* Left Image Line - position relative to mobile image */}
+            <img src="left.png" alt="Blue Line" className="absolute top-1/2 right-[-100px] w-32 h-32" />
           </div>
 
           {/* Mobile Image */}
@@ -27,13 +27,14 @@ const ControlWithApp = () => {
           </div>
 
           {/* Right Text Boxes */}
-          <div className="relative flex flex-col space-y-4">
-            <div className="relative bg-white p-4 border-l-4 border-yellow-500 rounded-lg shadow-lg w-[265px]">
+          <div className="flex flex-col space-y-4">
+            <div className="relative bg-white p-4 border-l-4 border-yellow-400 rounded-lg shadow-lg w-[265px]">
               <p className="text-sm text-gray-600">Vergrendel de kabel via de app</p>
-              {/* Right Arrow Line Image */}
-              <img src="right.png" alt="Arrow Line" className="absolute top-1/2 right-full transform -translate-y-1/2 w-[100px]" />
+              {/* Right Image Line - position relative to mobile image */}
+              <img src="right.png" alt="Yellow Line" className="absolute top-1/2 left-[-100px] w-32 h-32" />
             </div>
-            <div className="relative bg-white p-4 border-l-4 border-yellow-500 rounded-lg shadow-lg w-[265px]">
+
+            <div className="relative bg-white p-4 border-l-4 border-yellow-400 rounded-lg shadow-lg w-[265px]">
               <p className="text-sm text-gray-600">Overzicht over je laadgeschiedenis via de app</p>
             </div>
           </div>
