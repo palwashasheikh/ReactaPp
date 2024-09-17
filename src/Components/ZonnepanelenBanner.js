@@ -2,11 +2,11 @@ import React from 'react';
 
 const ZonnepanelenBanner = () => {
   return (
-    <div className="bg-teal-900 text-white py-20"
-    style={{ backgroundImage: 'url("/sungrow-emea-ceTSHQ0qars-unsplash 2.png")' }}
+    <div className="text-white py-20"
+    style={{ backgroundImage: 'url("/sungrow-emea-ceTSHQ0qars-unsplash 2.png")', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%' }}
 >
     <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between"
-          style={{ backgroundImage: 'url("/sungrow-emea-ceTSHQ0qars-unsplash 2.png")' }}
+          
 
     >
       {/* Text Section */}
