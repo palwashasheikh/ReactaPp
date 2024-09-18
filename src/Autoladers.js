@@ -14,6 +14,9 @@ import ContactForm from './Components/ContactForm';
 import AutoladersBanner from './Components/AutoladersBanner';
 import ChargerInfo from './Components/ChargerInfo';
 import ControlWithApp from './Components/ControlWithApp';
+import DynamicEnergyContract from './Components/DynamicEnergyContract';
+import SafeLoadbalancing from './Components/SafeLoadbalancing';
+import BusinessCharging from './Components/BusinessCharging';
 
 const Autoladers = () => {
   return (
@@ -22,11 +25,9 @@ const Autoladers = () => {
       <AutoladersBanner />
       <ChargerInfo />
       <ControlWithApp/>
-      <ExperienceSection/>
-      <SolarPanelSection/>
-      <SolarPanelOptions/>
-      <EnergyManagementSystem/>
-      <QuestionsGrid/>
+      <DynamicEnergyContract />
+      <SafeLoadbalancing />
+      <BusinessCharging />
       <TestimonialsSlider />
       <ContactForm />
       {/* Add more content specific to this page below */}
