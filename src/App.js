@@ -5,6 +5,7 @@ import ZonnepanelenPage from './ZonnepanelenPage'
 
 import Autoladers from './Autoladers'
 
+import Thuisbatterij from './Thuisbatterij'
 
 
 
@@ -18,7 +19,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/zonnepanelen" element={<ZonnepanelenPage />} />
           <Route path="/Autoladers" element={<Autoladers />} />
-
+          <Route path="/Thuisbatterij" element={<Thuisbatterij />} />
         </Routes>
         
       </div>

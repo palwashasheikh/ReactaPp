@@ -52,7 +52,7 @@ const NavBar = () => {
           <ul className="flex space-x-8">
             <li><a href="/zonnepanelen" className="hover:text-orangeish-500">Zonnepanelen</a></li>
             <li><a href="/Autoladers" className="hover:text-orangeish-500">Autoladers</a></li>
-            <li><a href="/" className="hover:text-orangeish-500">Thuisbatterij</a></li>
+            <li><a href="/Thuisbatterij" className="hover:text-orangeish-500">Thuisbatterij</a></li>
             <li><a href="/" className="hover:text-orangeish-500">Groepsaankoop</a></li>
             <li><a href="/" className="hover:text-orangeish-500">Zakelijk</a></li>
           </ul>
