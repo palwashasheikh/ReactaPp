@@ -2,32 +2,20 @@ import React from 'react';
 
 const CustomSystemSection = () => {
   return (
-    <section className="bg-gray-100 py-16 relative">
-      <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center lg:items-start">
-        {/* Image that is out of the main div */}
-        <div className="lg:w-1/2 w-full relative lg:mr-8"> {/* Added margin on right for spacing */}
-          <img 
-            src="Rectangle4.png" 
-            alt="System Image" 
-            className="w-full h-auto lg:absolute lg:-top-6 lg:left-[12rem] lg:w-[380px] shadow-lg"
-            style={{ zIndex: 10 }}
-          />
-        </div>
-
-        {/* Text content on the right */}
-        <div className="lg:w-1/2 w-full text-left">
-          <h2 className="text-4xl font-semibold text-gray-800 lg:ml-0"> {/* Added margin-left for alignment */}
-            Systeem <span className="text-yellow-400">Op Maat</span>
-          </h2>
-          <p className="mt-4 text-gray-600">
-            Lorem ipsum fiskdpejkur pusere. Sperade lasode alt gobigen, povidat difbafel. Pseudofil spell stenev emedan förväntis keskapet.
-          </p>
-          <p className="mt-4 text-gray-600">
-            Sum fiskdpejkur pusere. Sperade lasode alt gobigen, povidat difbafel. Pseudofil spell stenev emedan förväntis keskapet.
-          </p>
-        </div>
+    <div className="flex flex-col md:flex-row bg-slate-300 justify-start items-start pt-6 md:pt-20 pb-24 md:pb-28 pr-4 md:pr-24 relative">
+      {/* Right Section with Light Gray Background */}
+      <div className="flex items-start justify-center md:justify-start mr-12 relative w-1/3 h-1/2">
+        <img src="/Rectangle4.png" alt="Systeem Op Maat" className="w-full md:w-auto max-w-full h-auto absolute" /> {/* Replace with your actual image path */}
       </div>
-    </section>
+      {/* Left Section with Teal Background */}
+      <div className="md:w-[670px] mb-6 md:mb-0">
+      <h2 className="text-3xl md:text-5xl font-bold mb-8 text-black-300">
+        Systeem <span className="text-orangeish-500">Op Maat</span>
+      </h2>
+      <p className="text-black-300 mb-2 md:mb-4 text-xl">Lorem ipsum fiskdpejkur pusere. Sperade lasode alt gobigen, povidat difbafel. Pseudofil spell stenev emedan förväntis keskapet.</p>
+      <p className="text-black-300 text-xl">Sum fiskdpejkur pusere. Sperade lasode alt gobigen, povidat difbafel. Pseudofil spell stenev emedan förväntis keskapet.</p>
+      </div>  
+    </div>
   );
 };
 

@@ -6,37 +6,37 @@ const QuestionsGrid = () => {
   const questions = [
     {
       title: "Wat Zijn Micro-Omvormers",
-      description: "Lorem ipsum fisikdspiury pusere. Spereda losade aft gobigen, pavoriat difibel...",
+      description: "Lörem ipsum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov emedan förväntis keskapet. Sum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel.",
       linkText: "Lees verder: Wat is een goed zonnepaneel?",
       linkUrl: "#"
     },
     {
       title: "Wat Zijn Micro-Omvormers",
-      description: "Lorem ipsum fisikdspiury pusere. Spereda losade aft gobigen, pavoriat difibel...",
+      description: "Lörem ipsum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov emedan förväntis keskapet. Sum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel.",
       linkText: "Lees verder: Wat is een goed zonnepaneel?",
       linkUrl: "#"
     },
     {
         title: "Wat Zijn Micro-Omvormers",
-        description: "Lorem ipsum fisikdspiury pusere. Spereda losade aft gobigen, pavoriat difibel...",
+        description: "Lörem ipsum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov emedan förväntis keskapet. Sum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel.",
         linkText: "Lees verder: Wat is een goed zonnepaneel?",
         linkUrl: "#"
       },
       {
         title: "Wat Zijn Micro-Omvormers",
-        description: "Lorem ipsum fisikdspiury pusere. Spereda losade aft gobigen, pavoriat difibel...",
+        description: "Lörem ipsum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov emedan förväntis keskapet. Sum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel.",
         linkText: "Lees verder: Wat is een goed zonnepaneel?",
         linkUrl: "#"
       },
       {
         title: "Wat Zijn Micro-Omvormers",
-        description: "Lorem ipsum fisikdspiury pusere. Spereda losade aft gobigen, pavoriat difibel...",
+        description: "Lörem ipsum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov emedan förväntis keskapet. Sum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel.",
         linkText: "Lees verder: Wat is een goed zonnepaneel?",
         linkUrl: "#"
       },
       {
         title: "Wat Zijn Micro-Omvormers",
-        description: "Lorem ipsum fisikdspiury pusere. Spereda losade aft gobigen, pavoriat difibel...",
+        description: "Lörem ipsum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov emedan förväntis keskapet. Sum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel.",
         linkText: "Lees verder: Wat is een goed zonnepaneel?",
         linkUrl: "#"
       },
@@ -44,9 +44,9 @@ const QuestionsGrid = () => {
   ];
 
   return (
-    <div className="py-12 bg-gray-50">
-      <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">
+    <div className="py-0 mb-12">
+      <div className="px-4 md:px-24">
+        <h2 className="text-3xl md:text-5xl font-bold mb-8 text-left text-[#2E353D]">
           Alle Vragen Over Zonnepanelen
         </h2>
 

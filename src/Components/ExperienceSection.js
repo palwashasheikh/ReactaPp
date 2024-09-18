@@ -2,12 +2,12 @@ import React from 'react';
 
 const ExperienceSection = () => {
   return (
-    <section className="py-10 mt-20">
+    <section className="py-10 mt-10">
       <div className="max-w-5xl mx-auto px-4">
         {/* Heading */}
-        <h2 className="text-3xl font-semibold mb-8 text-center">
-          <span className="text-[#06627C]">Krachtdak Heeft Ervaring </span> 
-          Met Montage Op <br />Afwijkende Type Daken
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-14 md:mb-16 text-[#2E353D]">
+          <span className="text-[#06627C]">Krachtdak Heeft Ervaring</span> Met Montage Op
+          Afwijkende Type Daken
         </h2>
 
         {/* Grid Section */}
