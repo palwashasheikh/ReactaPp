@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-blueish-80 py-12 text-white">
-      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-4 gap-8">
+      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-4 sm:gap-1 gap-8">
         {/* Krachtdak section with logo */}
         <div>
           <div className="flex items-center mb-5">            

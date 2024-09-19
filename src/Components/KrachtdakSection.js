@@ -40,11 +40,11 @@ const KrachtdakSection = () => {
         </div>
 
         {/* Right Side: Image */}
-        <div className="w-full md:w-1/2 relative md:absolute md:right-0 :top-2 sm:absolute sm:right-0 sm:top-2 pr-4 md:pl-0 sm:pl-0" >
+        <div className="w-full md:w-1/2 relative md:absolute md:right-[-40px] md:top-[-20px] top-16">
           <img
             src="/Rectangleimage.png"
             alt="Worker with Solar Panel"
-            className="w-full md:w-[500px] mx-auto "
+            className="w-[90%] sm:w-[75%] md:w-[500px] mx-auto"
             style={{
               boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)', 
             }}
