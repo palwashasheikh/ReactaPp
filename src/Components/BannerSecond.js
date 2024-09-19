@@ -22,12 +22,12 @@ const BannerSecond = () => {
                 <img src="/tick.svg" alt="Tick" className="mr-2 md:mr-3 mt-1 md:mt-2" />
                 Lörem ipsum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov emedan förväntis keskapet.
               </li>
-              <li className="flex items-start text-lg md:text-xl">
-                <img src="/tick.svg" alt="Tick" className="mr-2 md:mr-3 mt-1 md:mt-2" />                
+              <li className="flex items-start text-lg md:text-xl ">
+                <img src="/tick.svg" alt="Tick" className="mr-2 md:mr-3 mt-1 md:mt-2 md:block" />                
                 Fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov emedan förväntis keskapet.
               </li>
               <li className="flex items-start text-lg md:text-xl">
-                <img src="/tick.svg" alt="Tick" className="mr-2 md:mr-3 mt-1 md:mt-2" />                
+                <img src="/tick.svg" alt="Tick" className="mr-2 md:mr-3 mt-1 md:mt-2 md:block" />                
                 Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov emedan förväntis keskapet. 
               </li>
             </ul>

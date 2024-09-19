@@ -31,7 +31,7 @@ const AutoladersBanner = () => {
         {/* Icon Section */}
         <div className="md:w-[450px] bg-white bg-opacity-30 rounded-lg p-6">
           <ul className="space-y-4 text-lg font-normal">
-            <li className="flex items-center">
+            <li className="flex items-center opacity-50">
               <div className="bg-amber-500 rounded-full mr-4 p-1.5 w-12 h-12 flex justify-center items-center">
                 <img src="/Capa_1.png" alt="solar panel" className="" />
               </div>
@@ -43,13 +43,13 @@ const AutoladersBanner = () => {
               </div>
               Autoladers
             </li>
-            <li className="flex items-center">
+            <li className="flex items-center opacity-50">
               <div className="bg-amber-500 rounded-full mr-4 p-1.5 w-12 h-12 flex justify-center items-center">
                 <img src="/Line Expand.png" alt="battery" className="" />
               </div>
               Thuisbatterij
             </li>
-            <li className="flex items-center">
+            <li className="flex items-center opacity-50">
               <div className="bg-amber-500 rounded-full mr-4 p-1.5 w-12 h-12 flex justify-center items-center">
                 <img src="/icons.png" alt="energy management" className="w-6 h-6" />
               </div>

@@ -33,8 +33,9 @@ const Thuisbatterij = () => {
       <EnergyInfoSection/>
       <NogMeerTransitionSection/>
       <BatteryAdviceSection/>
-    <EnergyManagementSection/>
+       <EnergyManagementSection/>
       <ThuisbatterijQuestionsGrid/>
+      <TestimonialsSlider />
       <ContactForm />
       {/* Add more content specific to this page below */}
      

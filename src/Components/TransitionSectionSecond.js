@@ -58,7 +58,7 @@ const TransitionSectionSecond = () => {
   return (
     <section className="bg-white pb-24 mt-16 md:mt-0">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-[#2E353D]">
+        <h2 className="text-3xl md:text-5xl sm:text-3xl font-bold text-center mb-12 text-[#2E353D]">
           Een Slimme Energie-Oplossing In <span className="text-[#06627C]">4 Stappen</span>
         </h2>
         <div className='flex md:flex-row flex-col justify-center items-start w-full px-4 md:px-24 space-x-6 min-h-[665px]'

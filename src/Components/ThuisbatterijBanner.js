@@ -13,17 +13,17 @@ const ThuisbatterijBanner = () => {
         {/* Text Section */}
         <div className="md:w-1/2 mb-10 md:mb-0">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            Slim Laden Met <br /> Krachtdak
+          Controle over je eigen energie met  <br /> een thuisaccu
           </h1>
           <ul className="mt-6 space-y-4">
             <li className="flex items-center text-xl">
-              <img src="/tick.svg" alt="Tick" class="mr-1 md:mr-2 mt-0.5 md:mt-1" /> Betrouwbare installatie
+              <img src="/tick.svg" alt="Tick" class="mr-1 md:mr-2 mt-0.5 md:mt-1" /> Vergroot onafhankelijkheid van energieleveranciers.
             </li>
             <li className="flex items-center text-xl">
-              <img src="/tick.svg" alt="Tick" class="mr-1 md:mr-2 mt-0.5 md:mt-1" /> Controle groepen kast
+              <img src="/tick.svg" alt="Tick" class="mr-1 md:mr-2 mt-0.5 md:mt-1" /> Voorkom uitvallende omvormers door hoge netspanning.
             </li>
             <li className="flex items-center text-xl">
-              <img src="/tick.svg" alt="Tick" class="mr-1 md:mr-2 mt-0.5 md:mt-1" /> Voorbereid op de toekomst!
+              <img src="/tick.svg" alt="Tick" class="mr-1 md:mr-2 mt-0.5 md:mt-1" />Gebruik de goedkoopste energie van een dynamisch energiecontract.
             </li>
           </ul>
         </div>
@@ -31,13 +31,13 @@ const ThuisbatterijBanner = () => {
         {/* Icon Section */}
         <div className="md:w-[450px] bg-white bg-opacity-30 rounded-lg p-6">
           <ul className="space-y-4 text-lg font-normal">
-            <li className="flex items-center">
+            <li className="flex items-center opacity-50">
               <div className="bg-amber-500 rounded-full mr-4 p-1.5 w-12 h-12 flex justify-center items-center">
                 <img src="/Capa_1.png" alt="solar panel" className="" />
               </div>
               Zonnepanelen Installaties
             </li>
-            <li className="flex items-center">
+            <li className="flex items-center opacity-50">
               <div className="bg-amber-500 rounded-full mr-4 p-1.5 w-12 h-12 flex justify-center items-center">
                 <img src="/Layer_1.png" alt="charger" className="w-6 h-6" />
               </div>
@@ -49,7 +49,7 @@ const ThuisbatterijBanner = () => {
               </div>
               Thuisbatterij
             </li>
-            <li className="flex items-center">
+            <li className="flex items-center opacity-50">
               <div className="bg-amber-500 rounded-full mr-4 p-1.5 w-12 h-12 flex justify-center items-center">
                 <img src="/icons.png" alt="energy management" className="w-6 h-6" />
               </div>

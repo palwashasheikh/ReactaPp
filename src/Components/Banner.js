@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="w-full mx-auto px-6 lg:px-24 flex flex-col md:flex-row items-center justify-between bg-blueish-80 py-20 md:py-40">
         {/* Text Section */}
         <div className="md:w-[500px] mb-10 md:mb-0 text-center md:text-left">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold md:!leading-[74px]">
+          <h1 className="text-3xl md:text-5xl sm:text-3xl lg:text-6xl font-bold md:!leading-[74px]">
             <span className='text-orangeish-500'>Slimme Energie Oplossingen</span> Met <br /> Een Maximale Opbrengst
           </h1>
         </div>
