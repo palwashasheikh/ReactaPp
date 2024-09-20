@@ -7,8 +7,8 @@ const SlimPlanSection = () => {
       <div className="max-w-6xl mx-auto px-4">
         {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-bold text-left mb-8 text-[#2E353D]">
-          Een Slim Plan Van <span className="text-[#06627C]">Krachtdak</span>
-        </h2>
+  Een Slim Plan Van <span className="block md:inline text-[#06627C]">Krachtdak</span>
+</h2>
         {/* Grid Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Each card */}

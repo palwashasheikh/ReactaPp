@@ -6,7 +6,7 @@ const EnergyManagementSystem = () => {
       <div className="max-w-6xl mx-auto px-4 flex flex-col lg:flex-row items-start lg:space-x-10 space-y-6 lg:space-y-0 relative">
         
         {/* Mobile Image */}
-        <div className="flex justify-center lg:justify-start relative lg:-ml-10 lg:-mt-[10.5rem]"> {/* Added relative positioning and negative margin */}
+        <div className="flex justify-center lg:justify-start relative lg:-ml-10 lg:-mt-[10.5rem] -mt-[8.5rem] "> {/* Added relative positioning and negative margin */}
           <img
             src="/iPhoneBG2-1-969x1536 1.png" // Replace with actual image path
             alt="Mobile Display"

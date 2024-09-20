@@ -6,7 +6,7 @@ const SolarPanelSection = () => {
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between px-4">
         {/* Left Side: Text Content */}
         <div className="lg:w-1/2 w-full text-white">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 !leading-[60px]">Hoogwaardige Zonnepanelen</h2>
+          <h2 className="text-3xl md:text-3xl font-bold mb-4 !leading-[38px] block ml-6">Hoogwaardige <br/> Zonnepanelen</h2>
 
           <div className="mb-6">
             <h3 className="text-2xl font-semibold text-white flex flex-row justify-start items-center"><img src="/dot.png" alt="dot" className='mr-2.5' />HOOG VERMOGEN</h3>

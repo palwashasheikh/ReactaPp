@@ -6,7 +6,8 @@ const SolarPanelOptions = () => {
       <div className="mx-auto px-4 md:px-24">
         {/* Title */}
         <h2 className="text-3xl md:text-5xl font-bold text-left mb-6">
-          Hoeveel Zonnepanelen Heb In Nodig
+          Hoeveel Zonnepanelen
+          <span className='block'>Heb In Nodig</span>
         </h2>
         <p className="text-[#2E353D] mb-6 text-xl font-semibold">
           Lorem ipsum fiskdpejkur pusere. Sperade lasode alt gobigen, povidat difbafel.
@@ -48,15 +49,16 @@ const SolarPanelOptions = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="bg-white mt-12 py-8 w-2/5 mx-auto rounded-lg shadow-md text-center flex flex-col space-y-6">
-          <h3 className="text-3xl font-bold text-[#06627C]">
-            Welke Opleiding Past Bij Jou?
-          </h3>
-          <button className="px-6 py-4 bg-[#FFAB10] text-white rounded-lg font-medium w-1/3 mx-auto">
-            Doe de test!
-          </button>
-          <p className="text-[#2E353D] text-xl font-semibold">Resultaat direct op je scherm</p>
-        </div>
+        <div className="bg-white mt-12 py-8 w-full sm:w-4/5 md:w-2/5 mx-auto rounded-lg shadow-md text-center flex flex-col space-y-6">
+  <h3 className="text-2xl sm:text-3xl font-bold text-[#06627C]">
+    Welke Opleiding Past Bij Jou?
+  </h3>
+  <button className="px-2 py-2 bg-[#FFAB10] text-white rounded-lg font-small w-[126px] sm:w-1/2 mx-auto">
+    Doe de test!
+  </button>
+  <p className="text-[#2E353D] text-lg sm:text-xl font-semibold">Resultaat direct op je scherm</p>
+</div>
+
       </div>
     </section>
   );

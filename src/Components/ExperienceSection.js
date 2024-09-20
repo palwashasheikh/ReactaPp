@@ -5,10 +5,23 @@ const ExperienceSection = () => {
     <section className="py-10 mt-10">
       <div className="max-w-5xl mx-auto px-4">
         {/* Heading */}
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-14 md:mb-16 text-[#2E353D]">
-          <span className="text-[#06627C]">Krachtdak Heeft Ervaring</span> Met Montage Op
-          Afwijkende Type Daken
-        </h2>
+        <h2 className="text-3xl md:text-5xl font-bold mb-14 md:mb-16 text-[#2E353D]">
+  {/* Mobile view: stacked text */}
+  <span className="block md:hidden">
+    <span className="text-[#06627C]">Krachtdak Heeft</span>
+    <span className="block">
+      <span className="text-[#06627C]">Ervaring</span> Met Montage
+    </span>
+    <span className="block">Op Afwijkende Type</span>
+    <span className="block">Daken</span>
+  </span>
+
+  {/* Web view: single-line text */}
+  <span className="hidden md:inline-block text-center">
+    <span className="text-[#06627C]">Krachtdak Heeft Ervaring</span> Met Montage Op Afwijkende Type Daken
+  </span>
+</h2>
+
 
         {/* Grid Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
