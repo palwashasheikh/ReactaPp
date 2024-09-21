@@ -5,12 +5,12 @@ const ThuisbatteriTransitionSection = () => {
     <div className="flex flex-col md:flex-row bg-slate-300 justify-between items-start py-8 md:py-16 px-6 md:px-[15rem] mb-12 gap-6 md:gap-8"> {/* Added gap class */}
       {/* Left Section */}
       <div className="md:w-[450px] mb-6 md:mb-0"> {/* Reduced width */}
-        <h2 className="text-1xl md:text-4xl font-bold mb-4 text-[#FFAB10]">
+        <h2 className="text-4xl md:text-4xl font-bold mb-4 text-[#FFAB10]">
           Onafhankelijkheid <span className="text-black"> Met
             <br /> Een Thuisaccu</span>
         </h2>
         {/* New Section Added */}
-        <p className="text-[#2E353D] mb-6 text-lg md:text-xl font-medium">
+        <p className="text-[#2E353D] mb-6 text-lg md:text-xl font-bold">
           Bij grote prijsschommelingen of nieuwe heffingen ben je met een thuisbatterij goed voorbereid.
         </p>
         <p className="text-gray-700 mb-4 text-lg md:text-xl">

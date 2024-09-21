@@ -11,9 +11,9 @@ const ThuisbatterijBanner = () => {
     >
       <div className="w-full max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between relative z-10 py-10">
         {/* Text Section */}
-        <div className="md:w-1/2 mb-10 md:mb-0">
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-          Controle over je eigen energie met  <br /> een thuisaccu
+        <div className="md:w-1/2 mb-10 md:mb-0 md:justify-center">
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight ">
+          Controle over je  <br/>eigen energie met  <br /> Een thuisaccu
           </h1>
           <ul className="mt-6 space-y-4">
             <li className="flex items-center text-xl">

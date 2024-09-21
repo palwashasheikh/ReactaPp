@@ -115,7 +115,7 @@ const TestimonialsSlider = () => {
           </div>
         </div>
 
-        <div className="flex justify-end mt-6 space-x-3 mr-4 md:mr-24">
+        <div className="flex md:justify-end mt-6 space-x-3 mr-4 md:mr-24 justify-center">
           <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
           <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
         </div>

@@ -4,9 +4,15 @@ const BatteryAdviceSection = () => {
   return (
     <div className="relative bg-[#06627C] py-10 flex flex-col items-center mb-12 w-full">
       {/* Main Heading */}
-      <h1 className="text-3xl md:text-4xl font-bold text-white mb-2 text-center">
-        Is een thuisbatterij interessant? Vraag <br /> advies aan Krachtdak!
-      </h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-white mb-2 text-center sm:block md:hidden">
+  Is een thuisbatterij <br /> interessant? Vraag <br /> advies aan Krachtdak!
+</h1>
+
+<h1 className="text-3xl md:text-4xl font-bold text-white mb-2 text-center hidden md:block">
+  Is een thuisbatterij interessant? Vraag <br /> advies aan Krachtdak!
+</h1>
+
+      
 
       {/* Content Container */}
       <div className="flex flex-col md:flex-row items-start gap-8 max-w-6xl w-full px-4">
