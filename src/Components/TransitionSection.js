@@ -15,7 +15,7 @@ const TransitionSection = () => {
 
       {/* Right Section with Light Gray Background */}
       <div className="flex items-center justify-center md:justify-end">
-        <img src="/Rectangle.png" alt="Energy Transition" className="w-full md:w-auto max-w-full h-auto" /> {/* Replace with your actual image path */}
+        <img src="/petrol.png" alt="Energy Transition" className="w-full md:w-auto max-w-full h-auto" /> {/* Replace with your actual image path */}
       </div>
     </div>
   );

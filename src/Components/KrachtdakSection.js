@@ -42,7 +42,7 @@ const KrachtdakSection = () => {
         {/* Right Side: Image */}
         <div className="w-full md:w-1/2 relative md:absolute md:right-[-40px] md:top-[-20px] top-16">
           <img
-            src="/Rectangleimage.png"
+            src="/Dit-is-Krachtdak.png"
             alt="Worker with Solar Panel"
             className="w-[90%] sm:w-[75%] md:w-[500px] mx-auto"
             style={{

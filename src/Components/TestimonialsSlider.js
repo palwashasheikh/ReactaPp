@@ -10,33 +10,33 @@ const TestimonialsSlider = () => {
   const testimonials = [
     {
       name: "Vinegar Doppio",
-      image: "/sliderimage.png",
+      image: "/slider1.png",
       rating: 5,
       review: "Lörem ipsum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov",
     },
     {
       name: "Vinegar Doppio",
-      image: "/sliderimage.png",
+      image: "/slider2.png",
       rating: 4,
       review: "Lörem ipsum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov",
     },
     {
         name: "Vinegar Doppio",
-        image: "/sliderimage.png",
+        image: "/slider3.png",
         rating: 4,
         review: "Lörem ipsum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov",
       },
       // 
       {
         name: "Vinegar Doppio",
-        image: "/sliderimage.png",
+        image: "/slider4.png",
         rating: 4,
         review: "Lörem ipsum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov",
       },
       // 
       {
         name: "Vinegar Doppio",
-        image: "/sliderimage.png",
+        image: "/slider4.png",
         rating: 4,
         review: "Lörem ipsum fiskpedikyr pusere. Sperade lasade att gobigen, pavidat difåbel. Pseudofili spell stenov",
       },

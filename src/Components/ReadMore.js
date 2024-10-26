@@ -5,22 +5,22 @@ const ReadMoreSection = () => {
     {
       title: 'Zonnepanelen',
       description: 'Veilig installatie Controle groepenkast Maximaal rendement',
-      image: '/imager1.png',
+      image: '/readmoreq.png',
     },
     {
       title: 'Autoladers',
       description: 'Betrouwbare installatie Beveiliging voor overbelasting Voorbereid op de toekomst',
-      image: '/imager1.png',
+      image: '/readmore1.png',
     },
     {
       title: 'Thuisbatterij',
       description: 'Betrouwbare installatie Energie opslaan voor later Klaar voor de toekomst',
-      image: '/imager1.png',
+      image: '/readmore2.png',
     },
     {
       title: 'Energiemanagement Systeem',
       description: 'Veilig installatie Controle groepenkast Maximaal rendement',
-      image: '/imager1.png',
+      image: '/readmore3.png',
     },
   ];
 
