@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div
+    <div id="contactus"
       className="bg-cover bg-center py-10 md:py-20"
       style={{ backgroundImage: 'url("/longimage.png")' }}
     >

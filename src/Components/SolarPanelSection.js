@@ -14,7 +14,7 @@ const SolarPanelSection = () => {
               De zonnepanelen van Krachtdak hebben een hoog vermogen. Wij gebruiken het nieuwste type zonnepanelen met een
               uitstekende prijs/prestatie verhouding.
             </p>
-            <a href="/" className="text-[#FFAB10] ml-6 mt-2 flex justify-start items-center text-lg">Lees verder: Wat is een goed zonnepaneel? <img src="/arrow.svg" alt="Arrow" className="ml-5" /></a>
+            <a href="/WetZonnepanelenPage" className="text-[#FFAB10] ml-6 mt-2 flex justify-start items-center text-lg">Lees verder: Wat is een goed zonnepaneel? <img src="/arrow.svg" alt="Arrow" className="ml-5" /></a>
           </div>
 
           <div>            
@@ -23,7 +23,7 @@ const SolarPanelSection = () => {
               Betrouwbaarheid en goede garantieregelingen zijn van groot belang. Krachtdak werkt daarom uitsluitend met de
               grootste en meest solide fabrikanten ter wereld.
             </p>
-            <a href="/" className="text-[#FFAB10] mt-2 flex justify-start items-center text-lg ml-6">Lees verder: Wat is een goed merk zonnepanelen? <img src="/arrow.svg" alt="Arrow" className="ml-5" /></a>            
+            <a href="/WatiseengoedmerkzonnepanelenPage" className="text-[#FFAB10] mt-2 flex justify-start items-center text-lg ml-6">Lees verder: Wat is een goed merk zonnepanelen? <img src="/arrow.svg" alt="Arrow" className="ml-5" /></a>            
           </div>
         </div>
 

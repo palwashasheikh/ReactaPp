@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-scroll';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -72,9 +73,14 @@ const NavBar = () => {
             <li><a href="/" className="block text-white hover:text-orangeish-500">Groepsaankoop</a></li>
             <li><a href="/" className="block text-white hover:text-orangeish-500">Zakelijk</a></li>
           </ul>
-          <a href="#" className="bg-orangeish-500 hover:bg-orangeish-400 text-white px-4 py-2 rounded-lg font-semibold text-center">
-            Contact Us
-          </a>
+          <Link
+  to="contactus"
+  smooth={true}
+  duration={100}
+  className="bg-orangeish-500 hover:bg-orangeish-400 text-white px-4 py-2 rounded-lg font-semibold text-center"
+>
+  Contact Us
+</Link>
         </div>
       )}
     </nav>
